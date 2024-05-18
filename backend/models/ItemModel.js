@@ -4,7 +4,6 @@ const Schema = mongoose.Schema
 
 const itemSchema = new Schema(
     {
-        //id:{type: Number},
         checked:{type: Boolean},
         todo:{type: String}
     },

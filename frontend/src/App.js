@@ -75,7 +75,7 @@ function App() {
 
         (async()=>fetchApi())()
 
-    },[setItems])
+    },[items,setItems])
 
     return (
         <div className="App">

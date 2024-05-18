@@ -31,13 +31,13 @@ const Nav = ({setMode}) => {
                 <div className='dropdown-content'>
                     <p 
                         className='dropdown-option'
-                        onClick={()=>(setMode('dark'))}
-                    >Dark mode</p>
+                        onClick={()=>(setMode('light'))}
+                    >Light mode</p>
 
                     <p 
                         className='dropdown-option'
-                        onClick={()=>(setMode('light'))}
-                    >Light mode</p>
+                        onClick={()=>(setMode('dark'))}
+                    >Dark mode</p>
                 </div>
             </div>
 
